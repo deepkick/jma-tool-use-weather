@@ -1,0 +1,14 @@
+# 生成物(LLM の回答を保存したファイル)
+output/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# 環境
+.env
+.venv/

@@ -55,7 +55,6 @@ Claude と共に作成したノートブックです。エンジニアでない�
 
 ## 参考
 
-- 東京大学 松尾・岩澤研究室「大規模言語モデル応用講座」第2回演習(RAG と Tool Use)— 仕組みの学習に参照しました。本リポジトリのコードは同講座のコードを使用せず、独自に作成しています
 - Qwen Team (2025). Qwen3 Technical Report. arXiv:2505.09388
 - Hugging Face Transformers — Tool use / function calling with chat templates
 

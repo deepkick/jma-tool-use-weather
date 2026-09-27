@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Tool Use の仕組み: ユーザーの質問を受けた LLM が関数呼び出しを出力し、Python 側が関数を実行して気象庁の JSON を取得、結果を LLM に返す。LLM が関数を呼ばなくなったら最終回答。" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpjNWUyZTZiNy1hYzMxLTQ4ZWItYTQwNC1jOGE5ODBkYTJkYWEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaM/V5nKzOSfsVJ2hgvxaQTQAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo1MmMxYWY5Yy1iOTdjLTQ4YjYtYjE5NC1mNjkwNDkzMzg5ZjZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoDaJgyEytWBABgCowYw+sOQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg94/bNDO6IFlIgcR96e+zJRoN5eNNoOii7wjYPQNsJzGkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaMXi07Hz6v+SsyFaRgV8xJEAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYID/00EZMiYUKAdk70r+XeaYy2RsSBooOtFVjIwBTEDh/ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQGjZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmM1ZTJlNmI3LWFjMzEtNDhlYi1hNDA0LWM4YTk4MGRhMmRhYS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmI3Y2M2MWM0LTg3OTAtNGFjYS1iNzEzLWQ1OTdmMTMxZGQyN3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCD3j9s0M7ogWUiBxH3p77MlGg3l402g6KLvCNg9A2wnMaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgghZJpLO04FKa1vq6nrRe91fjlyYKnkTjjVTgvesM3oh2iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggazk6eQwGmiYvvVLuM8N9fZw0QZJq85oZW08MSFQNS+V0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQKuHYnEIAPJai82guFrr/ILkTBNnHUlpisKO9NuomEjI43INB9Rw0qLRSuc4IUJxLA3NDC3MvnVj54nHHz+zEDY=</c2pa:manifest></metadata>
+  <defs>
+    <marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E8EDF5"/>
+    </marker>
+    <marker id="arwCyan" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4FD1E8"/>
+    </marker>
+    <marker id="arwAmber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F6C244"/>
+    </marker>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F1B2E"/>
+      <stop offset="1" stop-color="#0A1322"/>
+    </linearGradient>
+    <linearGradient id="llm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2B3A8F"/>
+      <stop offset="1" stop-color="#1B2660"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg)"/>
+
+  <!-- title -->
+  <text x="40" y="46" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">LLM に Tool を使わせる仕組み — ask() 関数の 1 往復</text>
+  <text x="40" y="72" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="13" fill="#9FB0C8">LLM は「どの関数を、どんな引数で呼ぶか」を決めて文章にするだけ。データを取ってくるのは Python の仕事。</text>
+
+  <!-- boundary line -->
+  <line x1="790" y1="110" x2="790" y2="640" stroke="#F6C244" stroke-width="2" stroke-dasharray="8 6" opacity="0.8"/>
+  <text x="800" y="128" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="12" fill="#F6C244">LLM はこの線の右側に触れない(ネット接続なし)</text>
+
+  <!-- USER -->
+  <rect x="20" y="300" width="150" height="120" rx="14" fill="#152238" stroke="#3A4C6B" stroke-width="1.5"/>
+  <text x="95" y="345" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="30" fill="#FFFFFF">👤</text>
+  <text x="95" y="378" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">ユーザー</text>
+  <text x="95" y="400" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="11.5" fill="#9FB0C8">日本語で質問するだけ</text>
+
+  <!-- LLM -->
+  <rect x="350" y="250" width="360" height="220" rx="18" fill="url(#llm)" stroke="#6C7BE8" stroke-width="2"/>
+  <text x="530" y="290" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">LLM(Qwen3)</text>
+  <text x="530" y="312" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="12" fill="#B9C3F5">Colab の GPU 上でローカル動作・API 不要</text>
+  <line x1="380" y1="328" x2="690" y2="328" stroke="#6C7BE8" stroke-width="1" opacity="0.6"/>
+  <text x="530" y="355" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="14" fill="#FFFFFF">LLM の仕事は 3 つ</text>
+  <text x="385" y="385" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="13.5" fill="#E8EDF5">① 質問に必要な <tspan font-weight="700" fill="#4FD1E8">関数を選ぶ</tspan></text>
+  <text x="385" y="412" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="13.5" fill="#E8EDF5">② <tspan font-weight="700" fill="#4FD1E8">引数を決める</tspan>(「京都」→ "京都府")</text>
+  <text x="385" y="439" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="13.5" fill="#E8EDF5">③ 返ってきた結果を <tspan font-weight="700" fill="#4FD1E8">読んで文章にする</tspan></text>
+
+  <!-- Tool list (docstrings) above LLM -->
+  <rect x="350" y="120" width="360" height="88" rx="12" fill="#152238" stroke="#3A4C6B" stroke-width="1.5"/>
+  <text x="530" y="146" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">使える関数の一覧(Tool 定義)</text>
+  <text x="530" y="168" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="12" fill="#9FB0C8">Python 関数の docstring と型ヒントから自動生成</text>
+  <text x="530" y="190" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11.5" fill="#4FD1E8">get_weekly_forecast(area: str) …「週間予報を取得します」</text>
+  <line x1="530" y1="208" x2="530" y2="248" stroke="#E8EDF5" stroke-width="1.5" marker-end="url(#arw)"/>
+  <text x="542" y="234" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="11.5" fill="#9FB0C8">質問と一緒に渡す</text>
+
+  <!-- PYTHON side -->
+  <rect x="850" y="250" width="310" height="220" rx="18" fill="#123A3A" stroke="#2FA88F" stroke-width="2"/>
+  <text x="1005" y="290" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">Python(こちら側)</text>
+  <text x="1005" y="312" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="12" fill="#A9E4D6">Tool = ただの Python 関数</text>
+  <line x1="880" y1="328" x2="1130" y2="328" stroke="#2FA88F" stroke-width="1" opacity="0.6"/>
+  <text x="880" y="357" font-family="Menlo, Consolas, monospace" font-size="12.5" fill="#E8EDF5">get_weekly_forecast()</text>
+  <text x="880" y="380" font-family="Menlo, Consolas, monospace" font-size="12.5" fill="#E8EDF5">get_short_forecast()</text>
+  <text x="880" y="403" font-family="Menlo, Consolas, monospace" font-size="12.5" fill="#E8EDF5">get_warnings()</text>
+  <text x="880" y="426" font-family="Menlo, Consolas, monospace" font-size="12.5" fill="#E8EDF5">get_amedas_now()</text>
+  <text x="880" y="449" font-family="Menlo, Consolas, monospace" font-size="12.5" fill="#E8EDF5">calc_stats()  …</text>
+
+  <!-- JMA -->
+  <rect x="850" y="540" width="310" height="90" rx="14" fill="#152238" stroke="#3A4C6B" stroke-width="1.5"/>
+  <text x="1005" y="575" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">気象庁 ホームページ</text>
+  <text x="1005" y="600" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="12" fill="#9FB0C8">週間予報・3日予報・概況・警報・アメダスの公開 JSON</text>
+  <line x1="985" y1="472" x2="985" y2="538" stroke="#E8EDF5" stroke-width="1.5" marker-end="url(#arw)"/>
+  <line x1="1025" y1="538" x2="1025" y2="472" stroke="#E8EDF5" stroke-width="1.5" marker-end="url(#arw)"/>
+  <text x="975" y="510" text-anchor="end" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="11.5" fill="#9FB0C8">HTTP GET</text>
+  <text x="1035" y="510" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="11.5" fill="#9FB0C8">JSON</text>
+
+  <!-- USER -> LLM: question -->
+  <line x1="172" y1="330" x2="348" y2="330" stroke="#E8EDF5" stroke-width="2" marker-end="url(#arw)"/>
+  <text x="260" y="318" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="12.5" font-weight="700" fill="#FFFFFF">質問</text>
+  <text x="260" y="300" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="10.5" fill="#9FB0C8">京都の今週の最高気温の平均は?</text>
+
+  <!-- LLM -> USER: final answer -->
+  <line x1="348" y1="400" x2="172" y2="400" stroke="#F6C244" stroke-width="2.5" marker-end="url(#arwAmber)"/>
+  <text x="260" y="424" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="12.5" font-weight="700" fill="#F6C244">最終回答</text>
+  <text x="260" y="442" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="10.5" fill="#9FB0C8">Markdown で表示・保存</text><text x="260" y="458" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="10.5" fill="#9FB0C8">(関数を呼ばずに文章を返したとき)</text>
+
+  <!-- LLM -> PYTHON: tool_call (top arrow) -->
+  <path d="M712,300 L848,300" stroke="#4FD1E8" stroke-width="2.5" fill="none" marker-end="url(#arwCyan)"/>
+  <rect x="716" y="266" width="130" height="22" rx="6" fill="#0A1322" stroke="#4FD1E8" stroke-width="1"/>
+  <text x="781" y="281" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11" fill="#4FD1E8">&lt;tool_call&gt; …</text>
+
+  <!-- PYTHON -> LLM: result (bottom arrow) -->
+  <path d="M848,420 L712,420" stroke="#2FA88F" stroke-width="2.5" fill="none" marker-end="url(#arw)"/>
+  <rect x="716" y="432" width="130" height="22" rx="6" fill="#0A1322" stroke="#2FA88F" stroke-width="1"/>
+  <text x="781" y="447" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="11" fill="#A9E4D6">実行結果(JSON)</text>
+
+  <!-- loop badge -->
+  <circle cx="781" cy="360" r="26" fill="#0A1322" stroke="#F6C244" stroke-width="1.5"/>
+  <text x="781" y="356" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="11" fill="#F6C244">くり返し</text>
+  <text x="781" y="371" text-anchor="middle" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="10" fill="#F6C244">最大 6 回</text>
+
+  <!-- tool_call example, bottom left -->
+  <rect x="20" y="520" width="690" height="110" rx="12" fill="#0A1322" stroke="#3A4C6B" stroke-width="1.5"/>
+  <text x="40" y="546" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="12.5" font-weight="700" fill="#4FD1E8">LLM が出力する「関数を呼びたい」の合図(そのままの文字列)</text>
+  <text x="40" y="572" font-family="Menlo, Consolas, monospace" font-size="12.5" fill="#E8EDF5">&lt;tool_call&gt;{"name": "get_weekly_forecast", "arguments": {"area": "京都府"}}&lt;/tool_call&gt;</text>
+  <text x="40" y="600" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="12" fill="#9FB0C8">→ Python 側がこれを読み取って get_weekly_forecast("京都府") を実行し、結果を LLM に返す。</text>
+  <text x="40" y="619" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="12" fill="#9FB0C8">   次のターンで LLM は calc_stats([28, 24, 25, …]) を呼び、その次に文章で答える(= 2 段呼び出し)。</text>
+
+  <!-- footer -->
+  <text x="40" y="672" font-family="Noto Sans CJK JP, Hiragino Sans, sans-serif" font-size="11" fill="#5F7190">jma-tool-use-weather — ask() の仕組み</text>
+</svg>

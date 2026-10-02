@@ -36,7 +36,9 @@ Claude と共に作成したノートブックです。エンジニアでない�
 2. メニュー「ランタイム」→「ランタイムのタイプを変更」→ T4 GPU を選択
 3. 上から順にセルを実行(モデルの読み込みに 5〜6 分かかります)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepkick/jma-tool-use-weather/blob/main/notebooks/jma_tool_use_weather.ipynb)
+[![Open In Colab](docs/colab-badge.svg)](https://colab.research.google.com/github/deepkick/jma-tool-use-weather/blob/main/notebooks/jma_tool_use_weather.ipynb)
+
+(バッジが表示されない場合はこちら: [Colab で開く](https://colab.research.google.com/github/deepkick/jma-tool-use-weather/blob/main/notebooks/jma_tool_use_weather.ipynb))
 
 ## リポジトリ構成
 
